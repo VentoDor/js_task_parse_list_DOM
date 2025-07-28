@@ -16,7 +16,7 @@ function sortList(lis) {
   items.forEach((el) => lis.appendChild(el));
 }
 
-function getEmployeers(lists) {
+function getEmployees(lists) {
   const items = Array.from(lists.children);
   const arr = [];
 
@@ -34,4 +34,4 @@ function getEmployeers(lists) {
   return arr;
 }
 sortList(list);
-getEmployeers(list);
+getEmployees(list);
